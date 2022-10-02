@@ -129,11 +129,18 @@ color:#000000;
 
 .header-tel, .header-mail {
     color: var(--main-color4);
+    display: flex;
+    align-items: center;
 }    
 
-.header-link:hover, .header-mail:hover, .header-tel:hover, .header-link:focus, .header-mail:focus, .header-tel:focus, .link1:focus, .link1:hover {
+.header-link:hover, .header-mail:hover, .header-tel:hover, .header-link:focus, .header-mail:focus, .header-tel:focus, .link1:focus, .link1:hover, .icon-header:focus, .icon-header:hover {
     color: var(--main-color2);
 } 
+
+.icon-header {
+    fill: currentColor;
+    margin-right: 10px;
+}
 
                     /*Hero*/
 .hero{
@@ -349,7 +356,7 @@ height: 100%;
 .team-title {
     font-weight: 700;
 font-size: 36px;
-line-height: 1, 16;
+line-height: 1,16;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-color3);
