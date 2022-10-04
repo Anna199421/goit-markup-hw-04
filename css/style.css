@@ -200,6 +200,7 @@ margin-bottom: 30px;
  .hero-btn:hover, .hero-btns:hover, .hero-btns:focus, .hero-btn:focus {
     color: var(--main-color);
    background-color: #188CE8;
+   
  }
  
    .hero-btns {
@@ -239,26 +240,18 @@ min-width: 73px;
 padding: 6px 22px;
 gap: 8px;
    }
-   .hero-section {
-    padding-top: 94px;
-    padding-bottom: 30px;
-    
-   }
+  
    .hero-ikon {
-    display: flex;
-    gap: 30px;
-    align-items: center;
+    
+    background-color: var(--section-color);
+    margin-bottom: 30px;
+   display: flex;
+   gap: 30px;
+   align-items: center;
     justify-content: center; 
-   
    }
-   .hero-ikon1 {
-width: 270px;
-height: 120px;
-display: inline-block;
 
-
-   }
-   .hero-ikon2 {
+   .hero-ikon3 {
     width: 270px;
     height: 120px;
     border: 1px solid #AFB1B8;
@@ -269,10 +262,9 @@ display: inline-block;
     fill: #AFB1B8;
      border-color:  #AFB1B8;
      gap: 30px;
-     
-     
-     
-}
+
+   }
+ 
 .group-soc-icon  {
     color: #AFB1B8;
 }
@@ -290,6 +282,7 @@ border-color: var(--main-color2);
  }
  .hidden {
     padding-top: 94px;
+    display: flex;
  }
 .hidden-list {
 display: flex;
@@ -456,8 +449,11 @@ min-width: 124px;
     max-width: 358px;
     margin-bottom: 4px;
 }
-.projects-list:hover, .projects-list:focus {
-    background: #EEEEEE;
+.projects-list {
+    background:var(--main-color);
+    box-shadow: 6px 1px 4px rgba(0, 0, 0, 0.16), 4px 0px 4px rgba(0, 0, 0, 0.06),  1px 0px 1px rgba(0, 0, 0, 0.12);
+    width: 370px;
+    border: 1px #EEEEEE;
 }
 
 .projects-text {
@@ -503,11 +499,13 @@ height: 92px;
     border-color: var(--main-color2);
 
 }
-.group-soc-icon:hover, .group-soc-icon:focus  {
+.group-box2:hover .group-soc-icon, .group-box2:focus .group-soc-icon {
     fill: var(--main-color2);
+    
 }
 .group-soc-icon  {
     color: #AFB1B8;
+    
 }  
 
 .group-list {
@@ -533,10 +531,13 @@ margin-bottom: 50px;
     padding-bottom: 60px;
     display: flex;
     gap: 70px;
-    
+    align-items: baseline;
 }
-.container1 {
+
+.container-footer {
     margin-left: 215px;
+    display: flex;
+    gap: 70px;
     
 }
 
@@ -554,6 +555,7 @@ max-width: 176px;
     color: var(--main-color2);
     display: block;
     margin-bottom: 20px;
+    font-family: Raleway;
  }
 
  .logo-footer{
@@ -590,10 +592,11 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-    justify-content: center;
+    text-align: left;
     display: flex;
     color: var(--main-color);
     margin-bottom: 20px;
+    
 }
 
 .footer-icon {
@@ -624,4 +627,3 @@ text-transform: uppercase;
     padding-bottom: 50px;
   }
   
-
