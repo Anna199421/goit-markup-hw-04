@@ -101,7 +101,7 @@ font-size: 26px;
 line-height: 1.19;
 /* identical to box height */
 letter-spacing: 0.03em;
-margin-right: 93px;
+
  }
               
 .header-logo {
@@ -109,6 +109,7 @@ color: var(--main-color2);
 }
 .logo-header {
 color:#000000;
+margin-right: 93px;
 }
   
 .header-list {
@@ -242,9 +243,6 @@ gap: 8px;
    }
   
    .hero-ikon {
-    
-    background-color: var(--section-color);
-    margin-bottom: 30px;
    display: flex;
    gap: 30px;
    align-items: center;
@@ -262,7 +260,8 @@ gap: 8px;
     fill: #AFB1B8;
      border-color:  #AFB1B8;
      gap: 30px;
-
+     margin-bottom: 30px;
+     background-color: #F5F4FA;
    }
  
 .group-soc-icon  {
@@ -449,7 +448,7 @@ min-width: 124px;
     max-width: 358px;
     margin-bottom: 4px;
 }
-.projects-list {
+.projects-list:hover {
     background:var(--main-color);
     box-shadow: 6px 1px 4px rgba(0, 0, 0, 0.16), 4px 0px 4px rgba(0, 0, 0, 0.06),  1px 0px 1px rgba(0, 0, 0, 0.12);
     width: 370px;
@@ -534,11 +533,8 @@ margin-bottom: 50px;
     align-items: baseline;
 }
 
-.container-footer {
-    margin-left: 215px;
+.footer .container {
     display: flex;
-    gap: 70px;
-    
 }
 
 .footer-logo, .logo-footer {
@@ -565,7 +561,12 @@ color: var(--main-color);
  .footer-address {
     font-style: normal;
     max-width: 252px;
-  
+ }
+ .contacts {
+    margin-right: 70px;
+ }
+ .sosho-list1 {
+    padding-top: 12px;
  }
 
 .footer-address-link {
